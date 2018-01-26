@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Pizza-Project</title>
+  <link href="css/bootstrap.css" rel="stylesheet" text="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand">Mediocre Pizza</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="ordernow.html">Order now!</a></li>
+      </ul>
+    </div>
+  </nav>
+</head>
+
+<body>
+      <div class="container" id="size">
+        <form class= "form-size">
+        <h3>Pick a size</h3>
+        <div class="row">
+          <div class="col-md-4">
+            <input class="form-check-input" type="radio" name="pizzaSize" value="small" checked>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">Small</h4>
+              </div>
+              <div class="panel-body" id="sizeSmall" style="background-image: url(https://zompist.files.wordpress.com/2014/02/pizza.jpg)">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <input class="form-check-input" type="radio" name="pizzaSize" value="medium" checked>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">Medium</h4>
+              </div>
+              <div class="panel-body" id="sizeMedium" style="background-image: url(https://www.cicis.com/media/1150/pizza_trad_supreme.png)">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <input class="form-check-input" type="radio" name="pizzaSize" value="large" checked>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">Large</h4>
+              </div>
+              <div class="panel-body" id="sizeLarge" style="background-image: url(https://www.cicis.com/media/1176/pizza_trad_pepperonibeef.png)">
+              </div>
+            </div>
+          </div>
+          <div class="container" id="meats">
+            <h3>Pick your meats</h3>
+            <div class="row">
+              <div class="col-md-3">
+                <input type="checkbox" name="ingredients" value="bacon">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">Bacon</h4>
+                  </div>
+                  <div class="panel-body" id="paneldesert" style="background-image: url(http://a57.foxnews.com/images.foxnews.com/content/fox-news/food-drink/2017/05/31/this-is-best-bacon-in-america-and-worst/_jcr_content/par/featured_image/media-0.img.jpg/876/493/1496172302870.jpg?ve=1&tl=1)">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <input type="checkbox" name="ingredients" value="pepperoni">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">Pepperoni</h4>
+                  </div>
+                  <div class="panel-body" id="paneldesert" style="background-image: url(http://sixdollarfamily.com/wp-content/uploads/2015/11/grilled-pepperoni-sandwiches-process-2.jpg)">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <input type="checkbox" name="ingredients" value="ham">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">Ham</h4>
+                  </div>
+                  <div class="panel-body" id="paneldesert" style="background-image: url(https://pantograph0.goldbely.com/cfill-h630-w1200/uploads/product/main_image/16210/small-boneless-cooked-country-ham.459f4e83917f052b453c756f67da10d6.jpg)">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <input type="checkbox" name="ingredients" value="sausage">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">Sausage</h4>
+                  </div>
+                  <div class="panel-body" id="paneldesert" style="background-image: url(https://cdn.shopify.com/s/files/1/0220/3502/products/SAUSAGE_3_1024x1024.jpg?v=1471561801)">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container" id="veggies">
+            <h3>Pick your veggies</h3>
+            <div class="row">
+              <div class="col-md-3">
+                <input type="checkbox" name="ingredients" value="onions">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">Onions</h4>
+                  </div>
+                  <div class="panel-body" id="paneldesert" style="background-image: url(https://cdn1.medicalnewstoday.com/content/images/articles/276/276714/red-and-white-onions.jpg)">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <input type="checkbox" name="ingredients" value="green-peppers">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">Green Peppers</h4>
+                  </div>
+                  <div class="panel-body" id="paneldesert" style="background-image: url(http://palmaworld.com/wp-content/uploads/2017/01/green-pepper.jpg)">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <input type="checkbox" name="ingredients" value="olives">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">Olives</h4>
+                  </div>
+                  <div class="panel-body" id="paneldesert" style="background-image: url(https://www.daringgourmet.com/wp-content/uploads/2014/11/Lindsay-Olives-3-edited-1024x682.jpg)">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <input type="checkbox" name="ingredients" value="mushrooms">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">Mushrooms</h4>
+                  </div>
+                  <div class="panel-body" id="paneldesert" style="background-image: url(https://www.bbcgoodfood.com/sites/default/files/guide/guide-image/2017/05/health-benefits-of-mushrooms-guide-700-350.jpg)">
+                  </div>
+                </div>
+              </div>
+              <div class="largesubmitbutton">
+                <button type="submit" class="btn btn-primary btn-lg" name="submit">Submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+      </div>
+    <form class="form-reload">
+      <button type="submit" class="btn btn-danger btn-lg">Restart</button>
+    </form>
+  </div>
+</body>
+
+</html>

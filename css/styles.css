@@ -20,7 +20,7 @@ h2 {
 }
 h3 {
   text-align: center;
-  
+
 }
 h4 {
   text-align: center;
@@ -71,6 +71,15 @@ h4 {
   background-size: 375px 250px;
 
 }
-.mainpage {
-  display: none;
+
+.form-reload {
+  text-align: center;
+}
+
+.largesubmitbutton {
+  text-align: center;
+}
+
+.form {
+  text-align: center;
 }
