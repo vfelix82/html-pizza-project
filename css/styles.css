@@ -18,6 +18,13 @@ h2 {
   font-family: fantasy;
 
 }
+h3 {
+  text-align: center;
+  
+}
+h4 {
+  text-align: center;
+}
 
 #paneldeal1 {
   height: 200px;
@@ -41,4 +48,29 @@ h2 {
   background-repeat: repeat-y;
   background-size: 375px 250px;
 
+}
+
+#sizeSmall {
+  height: 200px;
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: 275px 200px;
+
+}
+#sizeMedium {
+  height: 200px;
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: 325px 225px;
+
+}
+#sizeLarge {
+  height: 200px;
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: 375px 250px;
+
+}
+.mainpage {
+  display: none;
 }
