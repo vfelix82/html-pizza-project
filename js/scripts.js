@@ -5,7 +5,8 @@ $(".form-reload").click(function() {
 $(document).ready(function() {
   $(".form-size").submit(function(event) {
     event.preventDefault();
-    var operator = $("input:radio[name=pizzaSize]:checked").val();
-    alert(operator);
+    var pizzasizeinput = $("input:radio[name=pizzaSize]:checked").val();
+    var ingredientsinput = $("input:checkbox[name=ingredients]:checked").val();
+    alert(ingredientsinput);
   });
 });
