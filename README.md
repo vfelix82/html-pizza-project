@@ -10,7 +10,7 @@ Pizza webpage that has functions to choose the size and ingredients and calculat
 
 ## Setup/Installation Requirements
 
-* Direct link:
+* Direct link: https://vfelix82.github.io/pizza-project/
 * Clone from github
 * Open with html
 
