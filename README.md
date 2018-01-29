@@ -27,8 +27,11 @@ https://github.com/
 ## Technologies Used
 
 Html
+
 CSS
+
 BOOTSTRAP
+
 JavaScript
 
 ### License
